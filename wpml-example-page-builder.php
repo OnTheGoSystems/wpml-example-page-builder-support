@@ -14,7 +14,7 @@ Version: 1.0
  * of the post.
  *
  * We need to include three hooks from WPML to do this.
- * 1) 'wpml_example_page_builder_support_required' to tell WPML that we need page builder support
+ * 1) 'wpml_page_builder_support_required' to tell WPML that we need page builder support
  * 2) 'wpml_page_builder_register_strings' so we can register strings from our layout with WPML
  * 3) 'wpml_page_builder_string_translated' to receive translations from WPML so we can build the translated layout
  *
